@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "DynBC02_021",
+            "server": "https://erp-labs.inf.fh-dortmund.de",
+            "port": 443,
+            "serverInstance": "DynBC02_021",
+            "tenant": "default",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true ,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
